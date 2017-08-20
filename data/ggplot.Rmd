@@ -1,0 +1,27 @@
+---
+title: "GGPLOT"
+author: "Jamie Bedics"
+date: "8/19/2017"
+output: html_document
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Based on Wickham workshop
+library(tidyverse)
+setwd("~/CLU Google Drive/My Documents/Statistics Instruction/Suicide_Global/data")
+# clear up console
+#update.packages(ask=FALSE)
+global <- read_csv("suicide-rates-by-country.csv")
+
+```
+
+
+
+```{r}
+global
+
+
+
+
+```
+
