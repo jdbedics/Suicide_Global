@@ -18,10 +18,10 @@ global <- read_csv("suicide-rates-by-country.csv")
 
 
 ```{r}
-global
-
-
-
+plot <- ggplot(global, aes(Year, `suicide rate`)) +
+  geom_smooth()
+plot
 
 ```
+
 
